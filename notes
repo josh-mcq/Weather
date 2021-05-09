@@ -1,0 +1,33 @@
+use a python generator as the thing that's taking the data input and turning that into the data stream.
+
+A sine wave is sort of the base.
+
+how will i deliver it and what will i deliver via the sdk?
+
+I need to install the arduino ide.
+
+The installing of the neosensory library was a little different because i'm using the web editor. 
+
+So that's installed. But looking at the arduino editor, and the connect_and_vibrate example, that's mostly just using the arduino to send arbitrary signals to the buzz.  But what is the entry point if I have some python code to determine the rumble frames?
+
+what is circuitPython?
+
+arduino ide preferences -> CMD+, (command and comma)
+in prefernces, add this url: 
+https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+
+which i got from https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls
+did the board install of Adafruit nRF52
+
+tasks(to put into trello:
+[]get arduino board work(able to execute a sketch)
+[]flash a sketch to the board and get it to run
+[]get pressure sensor to send a stream to the board in a format that I can access the info I want
+[]get light sensor to send a stream to the board in a format that I can access the info I want
+[]get temp/humidty sensor to send a stream to the board in a format that I can access the info I want
+[]buy wind sensor
+[]get wind sensor to send a stream to the board in a format that I can access the info I want
+[]Read https://realpython.com/arduino-python/ & get board to run a python script
+[]get the arduino to interact with the buzz
+[]get all the data streams in order enough to combine them all in the most rudimentary way and process []that into a signal relayed to the buzz machine.
+[]finish the algorithm!
